@@ -1,5 +1,5 @@
 import { FaApple } from "react-icons/fa";
-
+import Link from "next/link";
 export default function Footer(){
     return(
         <div className='flex flex-col justify-center items-center'>
@@ -12,58 +12,58 @@ export default function Footer(){
             <div className='flex flex-col'>
             <ul>
                 <h1 className="text-[#1c1c1e] font-bold">Descobrir e Comprar</h1>
-                <li><a href='/'>Loja</a></li>
-                <li><a href='/'>Mac</a></li>
-                <li><a href='/'>iPad</a></li>
-                <li><a href='/'>iPhone</a></li>
-                <li><a href='/'>Airpods</a></li>
-                <li><a href='/'>Acessorios</a></li>
+                <li><Link href='/'>Loja</Link></li>
+                <li><Link href='/'>Mac</Link></li>
+                <li><Link href='/'>iPad</Link></li>
+                <li><Link href='/'>iPhone</Link></li>
+                <li><Link href='/'>Airpods</Link></li>
+                <li><Link href='/'>Acessorios</Link></li>
             </ul>
             </div>
             <div className='flex flex-col'>
             <ul>
                 <h1 className="text-[#1c1c1e] font-bold">Sua conta</h1>
-                <li><a href='/'>Gerenciar seu ID Apple</a></li>
-                <li><a href='/'>Conta da Apple Store</a></li>
-                <li><a href='/'>iCloud.com</a></li>
+                <li><Link href='/'>Gerenciar seu ID Apple</Link></li>
+                <li><Link href='/'>Conta da Apple Store</Link></li>
+                <li><Link href='/'>iCloud.com</Link></li>
             </ul>
             </div>
             <div className='flex flex-col'>
             <ul>
                 <h1 className="text-[#1c1c1e] font-bold">Apple Store</h1>
-                <li><a href='/'>Encontre uma loja</a></li>
-                <li><a href='/'>Genius Bar</a></li>
-                <li><a href='/'>Today at Apple</a></li>
-                <li><a href='/'>Apple Camp</a></li>
-                <li><a href='/'>App Apple Store</a></li>
-                <li><a href='/'>Financiamento</a></li>
-                <li><a href='/'>Status do seu pedido</a></li>
-                <li><a href='/'>Ajuda para comprar</a></li>
+                <li><Link href='/'>Encontre uma loja</Link></li>
+                <li><Link href='/'>Genius Bar</Link></li>
+                <li><Link href='/'>Today at Apple</Link></li>
+                <li><Link href='/'>Apple Camp</Link></li>
+                <li><Link href='/'>App Apple Store</Link></li>
+                <li><Link href='/'>Financiamento</Link></li>
+                <li><Link href='/'>Status do seu pedido</Link></li>
+                <li><Link href='/'>Ajuda para comprar</Link></li>
             </ul>
             </div>
             <div className='flex flex-col'>
             <ul>
                 <h1 className="text-[#1c1c1e] font-bold">Entretenimento</h1>
-                <li><a href='/'>Apple One</a></li>
-                <li><a href='/'>Apple TV+</a></li>
-                <li><a href='/'>App Store</a></li>
-                <li><a href='/'>Apple Books</a></li>
-                <li><a href='/'>Apple Podcasts</a></li>
-                <li><a href='/'>Apple Fitness+</a></li>
-                <li><a href='/'>Apple Arcade</a></li>
-                <li><a href='/'>Apple Music</a></li>
+                <li><Link href='/'>Apple One</Link></li>
+                <li><Link href='/'>Apple TV+</Link></li>
+                <li><Link href='/'>App Store</Link></li>
+                <li><Link href='/'>Apple Books</Link></li>
+                <li><Link href='/'>Apple Podcasts</Link></li>
+                <li><Link href='/'>Apple Fitness+</Link></li>
+                <li><Link href='/'>Apple Arcade</Link></li>
+                <li><Link href='/'>Apple Music</Link></li>
             </ul>
             </div>
             <div className='flex flex-col'>
             <ul>
-                <h1 className="text-[#1c1c1e] font-bold">Sobre a Apple</h1>
-                <li><a href='/'>Contato</a></li>
-                <li><a href='/'>Eventos</a></li>
-                <li><a href='/'>Ética e Compliance</a></li>
-                <li><a href='/'>Investidores</a></li>
-                <li><a href='/'>Oportunidades de Carreira</a></li>
-                <li><a href='/'>Liderança da Apple</a></li>
-                <li><a href='/'>Newsroom</a></li>
+                <h1 className="text-[#1c1c1e] font-bold">Sobre Link Apple</h1>
+                <li><Link href='/'>Contato</Link></li>
+                <li><Link href='/'>Eventos</Link></li>
+                <li><Link href='/'>Ética e Compliance</Link></li>
+                <li><Link href='/'>Investidores</Link></li>
+                <li><Link href='/'>Oportunidades de Carreira</Link></li>
+                <li><Link href='/'>Liderança da Apple</Link></li>
+                <li><Link href='/'>Newsroom</Link></li>
             </ul>
             </div>
         </footer>
