@@ -8,7 +8,7 @@ export default function Footer(){
                 <FaApple className='text-3xl text-[#6d6d6d]'/> 
                 <h1 className="text-2xl">Watch SE</h1>
             </div>
-        <footer className="flex gap-10  p-20">
+        <footer className="flex flex-wrap gap-10  p-20">
             <div className='flex flex-col'>
             <ul>
                 <h1 className="text-[#1c1c1e] font-bold">Descobrir e Comprar</h1>
